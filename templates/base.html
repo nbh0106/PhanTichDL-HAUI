@@ -1,0 +1,82 @@
+
+{% block content %}
+    <h1>{% block title %} HEART DISEASE PREDICTION  {% endblock %}</h1>
+    <form action="/predict" method="POST">
+        <label for="title">Is Male</label>
+        <input type="number" name="gender"
+               value="{{ request.form['gender'] }}"></input>
+        <br>
+
+        <label for="content">Age</label>
+        <input type="number" name="age"
+               value="{{ request.form['age'] }}"></input>
+        <br>
+
+        <label for="content">Education</label>
+        <input type="number" name="education"
+               value="{{ request.form['education'] }}"></input>
+        <br>
+
+        <label for="content">Current Smoker</label>
+        <input type="number" name="currentSmoker"
+               value="{{ request.form['currentSmoker'] }}"></input>
+        <br>
+
+        <label for="content">Cigs Per Day</label>
+        <input type="number" name="cigsPerDay"
+               value="{{ request.form['cigsPerDay'] }}"></input>
+        <br>
+
+        <label for="content">blood pressure medication(BP Meds)</label>
+        <input type="number" name="BPMeds"
+               value="{{ request.form['BPMeds'] }}"></input>
+        <br>
+
+
+        <label for="content">Prevalent Stroke</label>
+        <input type="number" name="prevalentStroke"
+               value="{{ request.form['prevalentStroke'] }}"></input>
+        <br>
+
+
+        <label for="content">Prevalent Hyp</label>
+        <input type="number" name="prevalentHyp"
+               value="{{ request.form['prevalentHyp'] }}"></input>
+        <br>
+
+        <label for="content">Diabetes</label>
+        <input type="number" name="diabetes"
+               value="{{ request.form['diabetes'] }}"></input>
+        <br>
+
+        <label for="content">Tot Chol</label>
+        <input type="number" name="totChol"
+               value="{{ request.form['totChol'] }}"></input>
+        <br>
+
+        <label for="content">Sys BP</label>
+        <input type="number" name="sysBP"
+               value="{{ request.form['sysBP'] }}"></input>
+        <br>
+
+        <label for="content">Dia BP</label>
+        <input type="number" name="diaBP"
+               value="{{ request.form['diaBP'] }}"></input>
+        <br>
+        <label for="content">BMI</label>
+        <input type="number" name="BMI"
+               value="{{ request.form['BMI'] }}"></input>
+        <br>
+        <label for="content">Heart Rate</label>
+        <input type="number" name="heartRate"
+               value="{{ request.form['heartRate'] }}"></input>
+        <br>
+        <label for="content">Glucose</label>
+        <input type="number" name="glucose"
+               value="{{ request.form['glucose'] }}"></input>
+        <br>
+
+
+        <button class="w-100 btn btn-lg btn-primary" type="submit">Submit</button>
+    </form>
+{% endblock %}
