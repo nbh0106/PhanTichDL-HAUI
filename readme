@@ -1,4 +1,4 @@
-﻿LOGISTIC REGRESSION - HEART DISEASE PREDICTION
+﻿## LOGISTIC REGRESSION - HEART DISEASE PREDICTION
 
 Introduction
 World Health Organization has estimated 12 million deaths occur worldwide, every year due to Heart diseases. Half the deaths in the United States and other developed countries are due to cardio vascular diseases. The early prognosis of cardiovascular diseases can aid in making decisions on lifestyle changes in high risk patients and in turn reduce the complications. This research intends to pinpoint the most relevant/risk factors of heart disease as well as predict the overall risk using logistic regression
@@ -64,11 +64,12 @@ Conclusions
 Start Project
 Steps to take
 
-LOGISTIC REGRESSION
+## LOGISTIC REGRESSION
 • Open file main.ipyip user Colab-google
 • Run All
 
-WEB-UI Project test LOGISTIC REGRESSION
+## Installation
+## WEB-UI Project test LOGISTIC REGRESSION
 User Python 3.8
 • Created a virtual environment, you may activate it.
 	python -m venv tutorial-env
@@ -77,6 +78,8 @@ User Python 3.8
 • Run project: Python3.8 app.py
 • Enter base parameters
 [![N|Solid](https://cdn-thumbs.imagevenue.com/3b/e8/f0/ME18Y3LJ_t.jpg)](https://cdn-thumbs.imagevenue.com/3b/e8/f0/ME18Y3LJ_t.jpg)
+![alt text](https://cdn-thumbs.imagevenue.com/3b/e8/f0/ME18Y3LJ_t.jpg)
 • Select Submit to perform cardiovascular disease risk prediction
 [![N|Solid](https://cdn-thumbs.imagevenue.com/f4/d8/7f/ME18Y3LL_t.jpg)](https://cdn-thumbs.imagevenue.com/f4/d8/7f/ME18Y3LL_t.jpg)
+![alt text](https://cdn-thumbs.imagevenue.com/f4/d8/7f/ME18Y3LL_t.jpg)
 • Tài liệu: https://www.overleaf.com/read/dcnjqknkqwhf#d7efa3
